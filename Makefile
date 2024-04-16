@@ -57,7 +57,7 @@ clean: ## Empty out the bin folder
 	@rm -rf build/bin
 
 
-#dev_docker: ## build docker images for development/testing usages
+#1 dev_docker: ## build docker images for development/testing usages
 	docker pull postgres
 	docker build -t scroll_l1geth ./common/docker/l1geth/
 	docker build -t scroll_l2geth ./common/docker/l2geth/
