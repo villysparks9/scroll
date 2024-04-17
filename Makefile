@@ -61,3 +61,4 @@ clean: ## Empty out the bin folder
 	docker pull postgres
 	docker build -t scroll_l1geth ./common/docker/l1geth/
 	docker build -t scroll_l2geth ./common/docker/l2geth/
+#2
