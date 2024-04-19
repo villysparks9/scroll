@@ -63,3 +63,4 @@ clean: ## Empty out the bin folder
 	docker build -t scroll_l2geth ./common/docker/l2geth/
 #2
 #3
+#4
